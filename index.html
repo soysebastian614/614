@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Gratuito</title>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fuente de Google Fonts (opcional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <h1>Bienvenido a Mi Sitio</h1>
+    <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="hero">
+     <h2>Tu proyecto, nuestra pasión</h2>
+        <p>Creación de sitios web modernos, rápidos y responsivos.</p>
+        <button id="ctaBtn">Descubre más</button>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre mí</h2>
+        <p>Desarrollador front‑end con experiencia en HTML, CSS y JavaScript. Me encanta crear experiencias limpias y accesibles.</p>
+    </section>
+
+    <section id="servicios" class="services">
+        <h2>Servicios</h2>
+      <ul>
+            <li>Diseño responsivo</li>
+        <li>Optimización SEO básica</li>
+         <li>Integración de formularios</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <textarea name="mensaje" rows="4" placeholder="Tu mensaje..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+      <p id="formMsg"></p>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2025 Mi Sitio — Todos los derechos reservados.</p>
+</footer>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
